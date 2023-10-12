@@ -1,0 +1,26 @@
+table{
+    border: 2px solid black;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+tr,th,td{
+ border: 2px solid blue;
+}
+
+th{
+    background-color: black;
+    color: red;
+}
+
+form{
+    border: 2px double blue;
+    width: 50%;
+    margin-left: 300px;
+    margin-top: 40px;
+}
+
+#h,#k{
+    text-decoration: none;
+}

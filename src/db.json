@@ -1,0 +1,22 @@
+{
+  "students": [
+    {
+      "name": "pranit",
+      "gender": "Female",
+      "course": "Css",
+      "five": "5 to 6",
+      "six": false,
+      "seven": false,
+      "id": 1
+    },
+    {
+      "name": "pranit",
+      "gender": "Female",
+      "course": "js",
+      "shift": [
+        "6 to 7"
+      ],
+      "id": 2
+    }
+  ]
+}
