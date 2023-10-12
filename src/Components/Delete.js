@@ -12,12 +12,12 @@ const Delete =()=>{
 
    async function fetchdata(){
        const result = await
-       axios.get(`http://localhost:8000/students/${ok}`) 
+       axios.get(`http://localhost:8000/students/get/${ok}`) 
        setuser(result.data)
    }
 
    function deletedata(){
-    axios.delete(`http://localhost:8000/students/${ok}`)
+    axios.delete(`http://localhost:8000/students/delete/${ok}`)
     navigate("/show")
    }
 
